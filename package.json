@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "static/index.js", 
-    "dev": "env-cmd -f ./config/dev.env nodemon static/index.js"
+     "start": "/app.js", 
+    "dev": "env-cmd -f ./config/dev.env nodemon app.js"
   },
   "author": "",
   "license": "ISC",
